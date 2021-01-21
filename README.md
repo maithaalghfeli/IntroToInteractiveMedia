@@ -19,3 +19,4 @@ this
 
 this is a new paragraph
 
+![](_.jpg)
