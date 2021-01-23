@@ -1,1 +1,1 @@
-![MaithaSelfPortraitIM.png]
+![SelfPortrait](MaithaSelfPortraitIM.png)
