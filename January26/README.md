@@ -1,1 +1,1 @@
-![SelfPortrait](MaithaSelfPortraitIM.png | width=200 height=400)
+![SelfPortrait](MaithaSelfPortraitIM.png =24x48)
