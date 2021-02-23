@@ -24,3 +24,11 @@ Saber Strike differs from Knife Hit in the theme and that it consists of one lev
 ###### SIDE NOTE: THIS IS JUST AN IMAGINATIVE IMPLEMENTATION OF THE STAR WARS THEME AND IT DOES NOT, BY ANY CHANCE, REPRESENT A PROPER REPRESENTATION!
 
 # Progress
+
+**Thursday Feb 18, 2021**
+
+Today's work was simple, I only researched how I was going to execute this project, I looked for other people's recreations of this app and saw how they went about recreating it. What their code looked like and what programs they used.
+
+**Thursday Feb 22, 2021**
+
+I took a break from working on the Project as other work got stressfull, but today I worked on the background, I am still scouting for sound, quite confused as to whether use a Star Wars soundtrack as a background or not (Most probably will). I also inserted the typeface I am going to be using it is called *Krungthep* which is quite on brand with the theme. I have the saber count ready, that took a long while to figure out. I used arrays to do it. I have played with the Saber and Planet positioning but have not executed any code on them yet. 
