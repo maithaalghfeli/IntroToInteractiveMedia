@@ -27,7 +27,7 @@ Saber Strike differs from Knife Hit in the theme and that it consists of one lev
 
 **Thursday Feb 18, 2021**
 
-Today's work was simple, I only researched how I was going to execute this project, I looked for other people's recreations of this app and saw how they went about recreating it. What their code looked like and what programs they used.
+Today's work was simple, I only researched how I was going to execute this project, I looked for other people's recreations of this app and saw how they went about recreating it. What their code looked like and what programs they used. I also scouted the images I wanted to go with and edited them to fit my preference.
 
 **Thursday Feb 22, 2021**
 
