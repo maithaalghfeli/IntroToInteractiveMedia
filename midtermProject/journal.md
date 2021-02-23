@@ -17,6 +17,10 @@ Saber Strike differs from Knife Hit in the theme and that it consists of one lev
   <img src="Images/Screenshot%202021-02-23%20at%202.41.55%20PM.png" height="330">
 </p>
 
+<p align="center">
+<i> Saber Strike Photoshop Examples of End Result </i>
+</p>
+
 ###### SIDE NOTE: THIS IS JUST AN IMAGINATIVE IMPLEMENTATION OF THE STAR WARS THEME AND IT DOES NOT, BY ANY CHANCE, REPRESENT A PROPER REPRESENTATION!
 
 # Progress
