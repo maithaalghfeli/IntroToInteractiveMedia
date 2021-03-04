@@ -1,27 +1,20 @@
-# Saber Strike
+# FARM - VILLE
 
-The game Saber Strike is a simplified implementation of the famous arcade app Knife Hit by the game developers known as Ketchapp.
-In Knife Hit, a rotating log is centered high up in the screen. There are knifes situated underneath that will be thrown at the rotating log when the user gives input for that to happen. There is also a knife count on the side that changes with every level, and a score count.
-
-<p align="center">
-  <img src="Images/Screenshot%202021-02-23%20at%202.26.36%20PM.png" height="330">
-</p>
-
-Saber Strike however is a Star Wars themed entertainment game of reflexes and skills in which you flaunt your saber striking abilities! This game has incredible playability and holds a great deal of pleasure and fun! 
-
-Saber Strike differs from Knife Hit in the theme and that it consists of one level only, and for the time being has no obstacles on the planet (I may add those later if time permits).
-
-<p align="center">
-  <img src="Images/Screenshot 2021-02-23 at 2.41.43 PM.png" height="330">
-  <img src="Images/Screenshot%202021-02-23%20at%202.41.49%20PM.png" height="330">
-  <img src="Images/Screenshot%202021-02-23%20at%202.41.55%20PM.png" height="330">
-</p>
-
-<p align="center">
-<i> Saber Strike Photoshop Examples of End Result </i>
-</p>
-
-###### SIDE NOTE: THIS IS JUST AN IMAGINATIVE IMPLEMENTATION OF THE STAR WARS THEME AND IT DOES NOT, BY ANY CHANCE, REPRESENT A PROPER REPRESENTATION!
+The game Farm-Ville is a kids learning game icorporating sound image and text. Kids will learn to identify words and relate them to their corresponding attributes. If the game displays "COW" the kid has to press on the right animal to win the game, else a buzzer sounds off informing the kid of the error.
+ 
+ ### INSTRUCTIONS
+ 
+ - Game starts with an instructions screen. Press Enter to start game.
+ - A scene of farm animals is presented with a word on the TOP LEFT CORNER.
+ - Player must press on the animal that correspond with the word to win.
+ - If the correct animal is not pressed a losing sound plays.
+ *- If the correct animal is pressed a winning sound plays & the animal word is popped out of the Array List. 
+ 
+ *I wasn't able to do this so I turned the game into one level that restarts after every win instead of getting all 5 animals correctly. I asked for help but it seemed that approaching Array commands wasn't very friendly to me. Therefore new instruction:
+ 
+ - If the correct animal is pressed a winning page pops up.
+ - When win page pops up, player can restart the game by pressing ARROW UP.
+ - The game goes for one level at a time, it is meant for kids therefore trial and error is only performed with sounds.
 
 # Progress
 
@@ -29,6 +22,40 @@ Saber Strike differs from Knife Hit in the theme and that it consists of one lev
 
 Today's work was simple, I only researched how I was going to execute this project, I looked for other people's recreations of this app and saw how they went about recreating it. What their code looked like and what programs they used. I also scouted the images I wanted to go with and edited them to fit my preference.
 
-**Thursday Feb 22, 2021**
+**Monday Feb 22, 2021**
 
 I took a break from working on the Project as other work got stressfull, but today I worked on the background, I am still scouting for sound, quite confused as to whether use a Star Wars soundtrack as a background or not (Most probably will). I also inserted the typeface I am going to be using it is called *Krungthep* which is quite on brand with the theme. I have the saber count ready, that took a long while to figure out. I used arrays to do it. I have played with the Saber and Planet positioning but have not executed any code on them yet. 
+
+**Wednesday Feb 24, 2021**
+
+I've finished 30% of the Saber Strike code but I do not know how to move further with it, I scowered the internet for help videos and information or implementations of the game but it all seemed highly complicated even at my level of having a little coding background (I failed computer science twice :( ). I switched gears and am now doing a simpler game of identifying animals made for kids to play with, it is easier to manage as my background in coding only spans Python which has a complete different and much simpler syntax to Java. I've decided to keep the work simple as I wanted to really test my ability at understanding code properly and documenting it nicely.
+
+I downloaded all images, sounds, and font and uploaded them into the game's sketch folder. I then proceeded to initialise loading them into the game.
+
+**Saturday Feb 27, 2021**
+
+I worked on image placements today and figuring out how to lay the farm scene. As well as displayed the text words. 
+
+**Difficulty:** If I introduce the variable that calls a random word out of the animal list to be displayed in function draw() I get a never-ending loop of the words. I want to only display the word once. When I introduced the variable in set-up it sets as a local variable which doesn't allow me to call it in draw(). Also I want the text to change at the press of a mouse when the game starts.
+
+I turned the animals into clickable buttons, it was a hassle to figure out, kept switching between using the function mousePressed() and the boolean mousePressed == true. The boolean sounds like a more probable solution. I have matched the sounds of each animal to the button placements so now I have the scene set. Just need to figure out how to globalise the variable for the text and when to call it.
+
+**Monday March 1, 2021**
+
+I created game states where state 1 is the landing instructions page (press enter to change game state) & state 0 is the game playing state (when the game is won game state changes) & state 2 is the win page state (press arrow up key to change state back to 1).
+
+<p align="center">
+  <img src="MEDIA/IMAGES/INSTRUCTIONS.png" height="330">
+  <img src="MEDIA/IMAGES/GAME.png" height="330">
+  <img src="MEDIA/IMAGES/WIN.png" height="330">
+</p>
+
+<p align="center">
+<i> Different Screenshots of the game states. Instructions - Game - Win </i>
+</p>
+
+**Difficutly managed:** I figured out how to simply initialise a global variable then call it into the functions, much easier than I thought it would be. Also quite conveniently the game states helped me figure it out because it was easier to call a randomised animal word at the start of every game as in after moving out of the WIN and INSTRUCTION pages.
+
+**New Difficulty:** I've been trying to pop out the array index of the word called after it is correctly placed but I cannot seem to figure it out. My commands (although when I checked should work on arrays) don't seem to be able to invoke themselves. I'll try to figure it out if not i'll just move on and eliminate it from the game.
+
+
