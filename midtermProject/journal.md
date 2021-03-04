@@ -19,21 +19,21 @@ The game Farm-Ville is a kids learning game icorporating sound image and text. K
 
 # Progress
 
-#### Thursday Feb 18, 2021**
+#### Thursday Feb 18, 2021
 
 Today's work was simple, I only researched how I was going to execute this project, I looked for other people's recreations of this app and saw how they went about recreating it. What their code looked like and what programs they used. I also scouted the images I wanted to go with and edited them to fit my preference.
 
-#### Monday Feb 22, 2021**
+#### Monday Feb 22, 2021
 
 I took a break from working on the Project as other work got stressfull, but today I worked on the background, I am still scouting for sound, quite confused as to whether use a Star Wars soundtrack as a background or not (Most probably will). I also inserted the typeface I am going to be using it is called *Krungthep* which is quite on brand with the theme. I have the saber count ready, that took a long while to figure out. I used arrays to do it. I have played with the Saber and Planet positioning but have not executed any code on them yet. 
 
-#### Wednesday Feb 24, 2021**
+#### Wednesday Feb 24, 2021
 
 I've finished 30% of the Saber Strike code but I do not know how to move further with it, I scowered the internet for help videos and information or implementations of the game but it all seemed highly complicated even at my level of having a little coding background (I failed computer science twice :( ). I switched gears and am now doing a simpler game of identifying animals made for kids to play with, it is easier to manage as my background in coding only spans Python which has a complete different and much simpler syntax to Java. I've decided to keep the work simple as I wanted to really test my ability at understanding code properly and documenting it nicely.
 
 I downloaded all images, sounds, and font and uploaded them into the game's sketch folder. I then proceeded to initialise loading them into the game.
 
-#### Saturday Feb 27, 2021**
+#### Saturday Feb 27, 2021
 
 I worked on image placements today and figuring out how to lay the farm scene. As well as displayed the text words. 
 
@@ -51,7 +51,7 @@ I worked on image placements today and figuring out how to lay the farm scene. A
 
 I turned the animals into clickable buttons, it was a hassle to figure out, kept switching between using the function mousePressed() and the boolean mousePressed == true. The boolean sounds like a more probable solution. I have matched the sounds of each animal to the button placements so now I have the scene set. Just need to figure out how to globalise the variable for the text and when to call it.
 
-#### Monday March 1, 2021**
+#### Monday March 1, 2021
 
 I created game states where state 1 is the landing instructions page (press enter to change game state) & state 0 is the game playing state (when the game is won game state changes) & state 2 is the win page state (press arrow up key to change state back to 1).
 
@@ -69,7 +69,7 @@ I created game states where state 1 is the landing instructions page (press ente
 
 **New Difficulty:** I've been trying to pop out the array index of the word called after it is correctly placed but I cannot seem to figure it out. My commands (although when I checked should work on arrays) don't seem to be able to invoke themselves. I'll try to figure it out if not i'll just move on and eliminate it from the game. Also sound of winning is annoying it keeps playing on repeat until the game is restarted it gets extremely loud in a bad way, I do not know what is going on, I have included an If() statement for it but that doesn't seem to change anything. I'll figure it out on Wednesday.
 
-#### Wednesday March 3, 2021**
+#### Wednesday March 3, 2021
 
 I finished the game. I was not able to figure out how to invoke commands on my list, therefore I turned the game into a one level play where it restarts after every win only when the arrow is clicked. I inserted the If-Else commands for my animal sounds and winning states and recommented my code, reviewed it multiple times to remove any unwanted repeating codes or codes that simply don't help out at all. 
 
