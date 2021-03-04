@@ -76,3 +76,6 @@ I finished the game. I was not able to figure out how to invoke commands on my l
 Although I have hoped to include the part of the game where the kid must guess all five animals to win the game, it still is okay for my level of coding. I will hopefully work on it in my freetime and see what I can add and manage that would be quite fun to experiment with. For now, although this isn't much anyways I am still very pleased with myself and quite proud, it may seem like I am somewhat boasting but what's a little happiness and pride! <3
 
 **Difficulty resolved:** The sound was looping over and over because it drew the Game Won function over and over, I removed the sound play from the Game Won function and inserted after calling gameWon() in the Conditional Buzzer commands. Now my program runs wonderfully. I'm quite pleased with myself.
+
+
+# FIN!
