@@ -17,6 +17,14 @@ The game Farm-Ville is a kids learning game icorporating sound image and text. K
  - When win page pops up, player can restart the game by pressing ARROW UP.
  - The game goes for one level at a time, it is meant for kids therefore trial and error is only performed with sounds.
 
+<p align="center">
+  <img src="https://media.giphy.com/media/O1augkEDCr4n1My6bh/giphy.gif" height="500">
+</p>
+
+<p align="center">
+<i> GIF of Farm-Ville being played. Actual game includes sounds. </i>
+</p>
+
 # Progress
 
 #### Thursday Feb 18, 2021
