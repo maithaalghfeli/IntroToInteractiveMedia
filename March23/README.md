@@ -3,7 +3,7 @@
 ## Final Product:
 
 <p align="center">
-  <img src="https://gph.is/g/Z5LPQWB"=true>
+  <img src="https://media.giphy.com/media/131NrXuZf3qYp7DdiZ/giphy.gif" =true>
 </p>
 
 ## Idea:
