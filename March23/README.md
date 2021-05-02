@@ -3,7 +3,7 @@
 ## Final Product:
 
 <p align="center">
-  <img src="https://media.giphy.com/media/131NrXuZf3qYp7DdiZ/source.mov"=true>
+  <img src="https://gph.is/g/Z5LPQWB"=true>
 </p>
 
 ## Idea:
@@ -15,6 +15,14 @@ The game goes as follows: there are three switches and three lightbulbs, the swi
 ## Execution:
 
 This execution was relatively easier than I expected. Although drawing my own schematic was a little confusing to get into at first, I managed to figure it out relatively quickly and I think i'll keep the exact same layout throughout my schematics in the semester. Keeping true to the wires was also fun to do: red for 5v, black for gnd, and maintaining a rhythm in the wires chosen for each set of objects to keep things clear. 
+
+## Schematic:
+
+<p align="center">
+   <img src="1_schematic.jpg" width="480">
+</p>
+
+For the schematic, I wanted to make a very simplified diagram that looks very similar to the one in the lecture notes. I tried maintaining the switch, resistor, and LED keys throughout and followed the green connection highlights that were on the one showed in the lecture notes. In the beginning, I included all the ports, inputs and outputs, like the one shown in class, but it got very messy very quickly so I kept with only the ports I used which in the end was easier for me to follow and keep track of. 
 
 ## Difficulties:
 
