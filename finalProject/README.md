@@ -6,6 +6,8 @@
   <img src="GIF_F.gif" =true>
 </p>
 
+Click [here](https://youtu.be/miMztnJSjuA) for a video demo.
+
 ## Idea:
 
 I wanted a simple game for my final, involving the communication ports between arduino and processing. I particularly enjoyed the basket catching games and I think they perfectly combine processing code with arduino. I wanted dragons to be my theme therefore I tried as best as I can to get that to work. 
